@@ -54,8 +54,6 @@ This program was made and tested using Ubuntu 20.04.3 LTS and Python 3.8.5 So we
 <h3>Denis Kiprotich</h3>
 
  * Github @ kiprotich-denis
- 
- * Linkedln -
 
 <h2>License</h2>
 
