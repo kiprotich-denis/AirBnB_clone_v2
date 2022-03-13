@@ -25,27 +25,3 @@ class User(BaseModel, Base):
         password = ""
         first_name = ""
         last_name = ""
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
