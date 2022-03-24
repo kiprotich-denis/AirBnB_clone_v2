@@ -9,7 +9,7 @@ fi
 sudo mkdir -p /data/web_static/shared/
 sudo mkdir -p /data/web_static/releases/test/
 
-echo -e "<html>\n\t<head>\n\t</head>\n\t<body>\n\t\tBest School\n\t</body>\n</html>" >/data/web_static/releases/test/index.html
+echo -e "<html>\n\t<head>\n\t</head>\n\t<body>\n\t\tBest School\n\t</body>\n</html>" > /data/web_static/releases/test/index.html
 
 sudo ln -sf /data/web_static/releases/test/ /data/web_static/current
 
