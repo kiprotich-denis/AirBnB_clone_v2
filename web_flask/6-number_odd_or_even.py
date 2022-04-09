@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""starts a Flask web application"""
 from flask import Flask
 from flask import render_template
 app = Flask(__name__)
@@ -17,7 +18,7 @@ def hbnb():
 
 
 @app.route('/c/<string:text>', strict_slashes=False)
-def c_text(text=None):
+def c_text(text):
     """Dynamic inputed text: C + replace _ for space and show text"""
     return "C {}".format(text.replace('_', ' '))
 
